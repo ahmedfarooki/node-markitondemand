@@ -9,7 +9,8 @@
     "coverage": "make coverage",
     "mocha": "./node_modules/.bin/mocha test -R spec",
     "cov-html": "npm run cov && ./node_modules/.bin/mocha test -R html-cov > coverage.html",
-    "coveralls": "npm test && ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/.bin/coveralls"
+    "coveralls": "npm test && ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/.bin/coveralls",
+    "tb": "NODE_COVERAGE=1 ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js"
   },
   "author": "Ahmed Farooki",
   "license": "MIT",
