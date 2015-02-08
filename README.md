@@ -1,7 +1,7 @@
 node-markitondemand
 ===================
 [![Build Status](https://travis-ci.org/ahmedfarooki/node-markitondemand.svg)](https://travis-ci.org/ahmedfarooki/node-markitondemand)
-
+[![Coverage Status](https://coveralls.io/repos/ahmedfarooki/node-markitondemand/badge.svg)](https://coveralls.io/r/ahmedfarooki/node-markitondemand)
 Node.js library for accessing the http://dev.markitondemand.com APIs.
 
 ###Author
