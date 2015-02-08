@@ -1,5 +1,6 @@
 node-markitondemand
 ===================
+[![Build Status](https://travis-ci.org/ahmedfarooki/node-markitondemand.svg)](https://travis-ci.org/ahmedfarooki/node-markitondemand)
 
 Node.js library for accessing the http://dev.markitondemand.com APIs.
 
