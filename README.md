@@ -16,9 +16,9 @@ To run tests (requires mocha):
     $ mocha
 ```
 
-```bash
 To run test coverage (requires jscoverage):
 
+```bash
     $ npm run-script coverage
     or 
     $ make coverage
