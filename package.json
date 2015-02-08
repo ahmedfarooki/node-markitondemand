@@ -8,6 +8,7 @@
     "cov": "./node_modules/.bin/jscoverage lib/ lib-cov",
     "coverage": "make coverage",
     "mocha": "./node_modules/.bin/mocha test -R spec",
+    "istanbul": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "cov-html": "npm run cov && ./node_modules/.bin/mocha test -R html-cov > coverage.html",
     "coveralls": "NODE_COVERAGE=1 ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/.bin/coveralls"
   },
