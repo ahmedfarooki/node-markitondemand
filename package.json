@@ -4,13 +4,12 @@
   "description": "Node library for dev.markitondemand.com REST APIs.",
   "main": "./lib/markitondemand.js",
   "scripts": {
-    "test": "npm run cov && npm run mocha",
+    "test": "npm run cov && npm run mocha && npm run coveralls",
     "cov": "./node_modules/.bin/jscoverage lib/ lib-cov",
     "coverage": "make coverage",
     "mocha": "./node_modules/.bin/mocha test -R spec",
     "cov-html": "npm run cov && ./node_modules/.bin/mocha test -R html-cov > coverage.html",
-    "coveralls": "npm test && ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/.bin/coveralls",
-    "tb": "NODE_COVERAGE=1 ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js"
+    "coveralls": "NODE_COVERAGE=1 ./node_modules/.bin/mocha test -R mocha-lcov-reporter | ./node_modules/.bin/coveralls"
   },
   "author": "Ahmed Farooki",
   "license": "MIT",
