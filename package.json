@@ -4,7 +4,7 @@
   "description": "Node library for dev.markitondemand.com REST APIs.",
   "main": "./lib/markitondemand.js",
   "scripts": {
-    "test": "npm run cov && npm run mocha && npm run coveralls",
+    "test": "npm run cov && npm run mocha && npm run istanbul",
     "cov": "./node_modules/.bin/jscoverage lib/ lib-cov",
     "coverage": "make coverage",
     "mocha": "./node_modules/.bin/mocha test -R spec",
