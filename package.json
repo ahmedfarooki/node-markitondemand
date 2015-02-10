@@ -1,6 +1,6 @@
 {
   "name": "node-markitondemand",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node library for dev.markitondemand.com REST APIs.",
   "main": "./lib/markitondemand.js",
   "scripts": {
@@ -25,5 +25,22 @@
   },
   "dependencies": {
     "async": "~0.9.0"
-  }
+  },
+  "maintainers": [
+    {
+      "name": "Ahmed Farooki",
+      "email": "ahmedfarooki@gmail.com",
+      "web": "http://ahmedfarooki.com"
+    }
+  ],
+  "bugs": {
+    "url": "http://github.com/ahmedfarooki/node-markitondemand/issues"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/ahmedfarooki/node-markitondemand"
+  },
+  "keywords": [
+    "stocks", "stock market", "quotes", "api"
+  ]
 }
