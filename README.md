@@ -89,7 +89,8 @@ To run test coverage (requires jscoverage):
 
 ### Author
 
-Ahmed Farooki <ahmedfarooki@gmail.com>
+Ahmed Farooki
+<ahmedfarooki@gmail.com>
 
 ### License
 
