@@ -15,7 +15,7 @@ To install the npm package:
 
 ### Using the Library
 
-There are three APIs available to use:
+The APIs available in this library:
 
 * lookup()
 * getStock()
@@ -67,7 +67,7 @@ Used to get latest stock data for multiple symbols.
 ```javascript
    var markit = require('node-markitondemand');
 
-   markit.getQuote(['AAPL', 'F'], function(stocks) {
+   markit.getQuotes(['AAPL', 'F'], function(stocks) {
      // Where stocks is an array of objects of stock data
      console.log(stocks);
    });
@@ -96,7 +96,7 @@ Ahmed Farooki
 
 The MIT License (MIT)
 
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2015 Ahmed Farooki
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
