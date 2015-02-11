@@ -58,7 +58,7 @@ Used to get latest stock data.
 ```
 #### getQuotes()
 
-getQuotes(__symbols__, callback(__stock__));
+getQuotes(__symbols__, callback(__err__, __stock__));
 
 Used to get latest stock data for multiple symbols.
 
