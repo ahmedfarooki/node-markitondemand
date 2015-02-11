@@ -24,7 +24,7 @@ The APIs available in this library:
 
 #### lookup()
 
-lookup(symbol, callback(stock));
+lookup(__symbol__, callback(__err__, __stock__));
 
 Used to search stocks.
 
@@ -44,7 +44,7 @@ Used to search stocks.
 
 #### getQuote()
 
-getQuote(symbol, callback(stock));
+getQuote(__symbol__, callback(__err__, __stock__));
 
 Used to get latest stock data.
 
@@ -58,7 +58,7 @@ Used to get latest stock data.
 ```
 #### getQuotes()
 
-getQuotes(symbols, callback(stock));
+getQuotes(__symbols__, callback(__stock__));
 
 Used to get latest stock data for multiple symbols.
 
