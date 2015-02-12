@@ -1,5 +1,6 @@
 node-markitondemand
 ===================
+[![npm version](https://badge.fury.io/js/node-markitondemand.svg)](http://badge.fury.io/js/node-markitondemand)
 [![Build Status](https://travis-ci.org/ahmedfarooki/node-markitondemand.svg)](https://travis-ci.org/ahmedfarooki/node-markitondemand)
 [![Coverage Status](https://coveralls.io/repos/ahmedfarooki/node-markitondemand/badge.svg)](https://coveralls.io/r/ahmedfarooki/node-markitondemand)
 
@@ -31,7 +32,7 @@ Used to search stocks.
 ```javascript
    var markit = require('node-markitondemand');
 
-   markit.lookup('AAPL', function(data) {
+   markit.lookup('AAPL', function(err, data) {
      // Where data is an array of stock symbols
      console.log(data);
    });
@@ -51,7 +52,7 @@ Used to get latest stock data.
 ```javascript
    var markit = require('node-markitondemand');
 
-   markit.getQuote('AAPL', function(stock) {
+   markit.getQuote('AAPL', function(err, stock) {
      // Where stock is an object of stock data
      console.log(stock);
    });
@@ -67,7 +68,7 @@ Used to get latest stock data for multiple symbols.
 ```javascript
    var markit = require('node-markitondemand');
 
-   markit.getQuotes(['AAPL', 'F'], function(stocks) {
+   markit.getQuotes(['AAPL', 'F'], function(err, stocks) {
      // Where stocks is an array of objects of stock data
      console.log(stocks);
    });
