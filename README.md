@@ -4,6 +4,8 @@ node-markitondemand
 [![Build Status](https://travis-ci.org/ahmedfarooki/node-markitondemand.svg)](https://travis-ci.org/ahmedfarooki/node-markitondemand)
 [![Coverage Status](https://coveralls.io/repos/ahmedfarooki/node-markitondemand/badge.svg)](https://coveralls.io/r/ahmedfarooki/node-markitondemand)
 
+![](http://ahmedfarooki.github.io/node-markitondemand/images/node-mod.gif)
+
 Node.js library for accessing the **[Markit On Demand](http://dev.markitondemand.com)** APIs . Markit On Demand 'offers an opportunity to explore the complexity of financial data in building great tools'. The library gives you the ability to lookup stock symbols and and get stock quotes. 
 
 ### Getting Started
