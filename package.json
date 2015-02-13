@@ -1,6 +1,6 @@
 {
   "name": "node-markitondemand",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node library for dev.markitondemand.com REST APIs.",
   "main": "./lib/markitondemand.js",
   "scripts": {

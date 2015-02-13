@@ -20,10 +20,10 @@ To install the npm package:
 
 The APIs available in this library:
 
-* lookup()
-* getStock()
-* getQuote()
-* getQuotes()
+* [lookup()](#lookup)
+* [getStock()](#getstock)
+* [getQuote()](#getquote)
+* [getQuotes()](#getquotes)
 
 #### lookup()
 
